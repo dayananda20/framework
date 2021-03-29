@@ -23,6 +23,8 @@ public class ExtentDemo
 	static ExtentReports report;
 	
 	
+	//java class
+	
 	public static String capture(WebDriver driver) throws IOException 
 	{
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
